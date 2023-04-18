@@ -94,5 +94,4 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = FirstForm()
     ex.show()
-    sys.excepthook = exception_hook
     sys.exit(app.exec())
