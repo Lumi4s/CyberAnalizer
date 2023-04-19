@@ -22,6 +22,7 @@ class FirstForm(QMainWindow):
         self.setGeometry(300, 300, 300, 300)
         self.setWindowTitle('Выбор игры')
         self.label = QLabel(self)
+        self.label.resize(300, 15)
         self.label.setText('Для связи с разработчиком пишите по почте lumi4p@list.ru')
 
         self.LoL = QPushButton('League of Legends', self)
